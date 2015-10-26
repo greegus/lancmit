@@ -1,0 +1,30 @@
+{
+  "name": "lancmit",
+  "version": "1.0.0",
+  "description": "lunch menu slack bot crawler",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "webpack --progress --colors --watch -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greegus/lancmit.git"
+  },
+  "author": "Matus Duchon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greegus/lancmit/issues"
+  },
+  "homepage": "https://github.com/greegus/lancmit#readme",
+  "dependencies": {
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "cheerio": "^0.19.0",
+    "node-slack": "0.0.7",
+    "request": "^2.65.0",
+    "simplecrawler": "^0.5.4",
+    "slackbots": "^0.4.0",
+    "webpack": "^1.12.2"
+  }
+}
